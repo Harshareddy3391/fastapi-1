@@ -21,14 +21,19 @@ def index_page():
 
 '''
 usage: Application root
-url:http://localhost:801/about
+url:http://localhost:8000/home
 method type : Get
 Required feilds:None
 access type : public
 
 '''
 
-@app.get("/home")
+@app.get("/about")
 def about_page():
 
     return {"message":"about_page"}
+
+
+@app.get("/about")
+def ab
+
