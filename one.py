@@ -48,3 +48,6 @@ def delate():
 @app.put("/post")
 def put_data():
     return {"message":"post_dataa"}
+"""
+fast api
+"""
