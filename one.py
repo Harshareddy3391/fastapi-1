@@ -34,6 +34,17 @@ def about_page():
     return {"message":"about_page"}
 
 
-@app.get("/about")
-def ab
+@app.get("/home")
+def about():
+    return {"message":"home_page"}
 
+@app.post("/create")
+def create():
+    return {"message":"create data"}
+
+@app.delete("/delate")
+def delate():
+    return {"message":"delate_data"}
+@app.put("/post")
+def put_data():
+    return {"message":"post_dataa"}
